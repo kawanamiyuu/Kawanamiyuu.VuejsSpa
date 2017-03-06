@@ -1,3 +1,4 @@
+# for BEAR.Sunday
 .buildpath
 .DS_Store
 .idea
@@ -8,9 +9,14 @@
 .env
 build/
 nbproject
-vendor
+vendor/
 var/log/*
 var/tmp/*
 tests/tmp/*
+
+# for Vue.js
+node_modules/
+dist/
+npm-debug.log
 
 !.placefolder
