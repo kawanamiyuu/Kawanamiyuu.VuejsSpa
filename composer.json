@@ -36,7 +36,10 @@
         ],
         "clean": "rm -rf var/tmp/* var/log/*",
         "serve-api": "php -S 127.0.0.1:8080 bootsrap/api.php",
-        "serve-web": "php -S 127.0.0.1:8080 -t var/www var/www/index.php",
+        "serve-web": [
+            "npm run build:dev",
+            "php -S 127.0.0.1:8080 -t var/www var/www/index.php"
+        ],
         "get": "php bootstrap/api.php get",
         "post": "php bootstrap/api.php post",
         "put": "php bootstrap/api.php put",
