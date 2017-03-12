@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 
 new Vue({
-  el: '#app',
+  el: '#app-root',
   router,
   render: h => h(App)
 })
