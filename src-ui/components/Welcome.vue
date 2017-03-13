@@ -34,12 +34,8 @@ export default {
         fetchLinks() {
             axios.get('/links')
                 .then(res => {
-                    for (let i = 0; i < res.data.essential_links.length; i++) {
-                        this.$set(this.essential_links, i, res.data.essential_links[i]);
-                    }
-                    for (let i = 0; i < res.data.ecosystem_links.length; i++) {
-                        this.$set(this.ecosystem_links, i, res.data.ecosystem_links[i]);
-                    }
+                    this.essential_links = res.data.essential_links;
+                    this.ecosystem_links = res.data.ecosystem_links;
                 });
         }
     }
