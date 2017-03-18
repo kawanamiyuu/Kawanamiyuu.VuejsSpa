@@ -1,17 +1,16 @@
 {
     "name": "bear/vuejs-spa",
     "type": "project",
-    "description": "",
+    "description": "Sample Single Page Application powered by BEAR.Sunday and Vue.js",
     "license": "proprietary",
     "require": {
-        "php": ">=5.5.0",
+        "php": ">=7.0.0",
         "roave/security-advisories": "dev-master",
         "bear/package": "~1.0",
         "josegonzalez/dotenv": "~2.0",
         "madapaja/twig-module": "~1.1"
     },
     "require-dev": {
-        "composer/composer": "~1.0",
         "phpunit/phpunit": "~4.8 || ~5.2",
         "squizlabs/php_codesniffer": "~2.5",
         "phpmd/phpmd": "~2.3",
@@ -25,6 +24,11 @@
         }
     },
     "scripts": {
+        "post-install-cmd": "yarn install",
+        "serve": [
+            "yarn run build:dev",
+            "php -S 127.0.0.1:8080 -t var/www var/www/index.php"
+        ],
         "test": [
             "phpmd src text ./phpmd.xml",
             "phpcs src tests",
@@ -33,19 +37,9 @@
         "cs-fix": [
             "php-cs-fixer fix --config-file=./.php_cs",
             "phpcbf src"
-        ],
-        "clean": "rm -rf var/tmp/* var/log/*",
-        "serve-api": "php -S 127.0.0.1:8080 bootsrap/api.php",
-        "serve-web": [
-            "npm run build:dev",
-            "php -S 127.0.0.1:8080 -t var/www var/www/index.php"
-        ],
-        "get": "php bootstrap/api.php get",
-        "post": "php bootstrap/api.php post",
-        "put": "php bootstrap/api.php put",
-        "patch": "php bootstrap/api.php patch",
-        "delete": "php bootstrap/api.php delete",
-        "options": "php bootstrap/api.php options",
-        "web": "php bootstrap/web.php"
+        ]
+    },
+    "config": {
+        "process-timeout": 0
     }
 }
