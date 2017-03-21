@@ -1,6 +1,6 @@
 # Sample Single Page Application 
 
-powered by [BEAR.Sunday](https://bearsunday.github.io/) and [Vue.js](https://vuejs.org/)
+This application is based on [BEAR.Sunday](https://bearsunday.github.io/) (scaffold by [BEAR.Skeleton](https://github.com/bearsunday/BEAR.Skeleton)) and [Vue.js](https://vuejs.org/) (scaffold by [webpack-simple template](https://github.com/vuejs-templates/webpack-simple)).
 
 ## Setup
 
