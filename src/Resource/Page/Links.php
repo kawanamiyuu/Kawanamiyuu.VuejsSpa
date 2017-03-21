@@ -37,7 +37,7 @@ class Links extends ResourceObject
 
         $this['ecosystem_links'] = [
             [
-                'label' =>'vue-router',
+                'label' => 'vue-router',
                 'url' => 'http://router.vuejs.org/',
             ],
             [
