@@ -10,7 +10,7 @@ use BEAR\VuejsSpa\Annotation\Api;
  */
 class Links extends ResourceObject
 {
-    public function onGet()
+    public function onGet() : ResourceObject
     {
         $this['essential_links'] = [
             [
