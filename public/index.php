@@ -6,4 +6,4 @@ if (php_sapi_name() === 'cli-server' && strpos($_SERVER['REQUEST_URI'], '/dist/'
 }
 
 $context = 'html-app';
-require dirname(dirname(__DIR__)) . '/bootstrap/bootstrap.php';
+require dirname(__DIR__) . '/bootstrap/bootstrap.php';
