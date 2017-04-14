@@ -1,6 +1,5 @@
 <?php
-
-namespace BEAR\VuejsSpa\Resource\Page;
+namespace Kawanamiyuu\VuejsSpa\Resource\Page;
 
 use BEAR\Resource\ResourceObject;
 

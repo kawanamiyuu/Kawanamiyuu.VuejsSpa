@@ -1,7 +1,11 @@
 {
-    "name": "bear/vuejs-spa",
+    "name": "kawanamiyuu/vuejs-spa",
     "type": "project",
     "description": "Sample Single Page Application powered by BEAR.Sunday and Vue.js",
+    "keywords": [
+        "BEAR.Sunday",
+        "Vue.js"
+    ],
     "license": "proprietary",
     "require": {
         "php": ">=7.0.0",
@@ -18,7 +22,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "BEAR\\VuejsSpa\\": "src/"
+            "Kawanamiyuu\\VuejsSpa\\": "src/"
         }
     },
     "scripts": {

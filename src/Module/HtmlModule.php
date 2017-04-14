@@ -1,6 +1,5 @@
 <?php
-
-namespace BEAR\VuejsSpa\Module;
+namespace Kawanamiyuu\VuejsSpa\Module;
 
 use Madapaja\TwigModule\TwigModule;
 use Ray\Di\AbstractModule;
