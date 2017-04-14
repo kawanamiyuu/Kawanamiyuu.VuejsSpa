@@ -1,9 +1,9 @@
 <?php
 
-namespace BEAR\VuejsSpa\Resource\Page;
+namespace Kawanamiyuu\VuejsSpa\Resource\Page;
 
 use BEAR\Resource\ResourceObject;
-use BEAR\VuejsSpa\Annotation\Api;
+use Kawanamiyuu\VuejsSpa\Annotation\Api;
 
 /**
  * @Api

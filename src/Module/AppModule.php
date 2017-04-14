@@ -1,9 +1,9 @@
 <?php
 
-namespace BEAR\VuejsSpa\Module;
+namespace Kawanamiyuu\VuejsSpa\Module;
 
 use BEAR\Package\PackageModule;
-use BEAR\VuejsSpa\Annotation\Api;
+use Kawanamiyuu\VuejsSpa\Annotation\Api;
 use josegonzalez\Dotenv\Loader as Dotenv;
 use Ray\Di\AbstractModule;
 

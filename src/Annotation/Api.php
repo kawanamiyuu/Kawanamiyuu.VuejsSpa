@@ -1,6 +1,6 @@
 <?php
 
-namespace BEAR\VuejsSpa\Annotation;
+namespace Kawanamiyuu\VuejsSpa\Annotation;
 
 use Ray\Di\Di\Qualifier;
 

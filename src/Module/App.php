@@ -1,6 +1,6 @@
 <?php
 
-namespace BEAR\VuejsSpa\Module;
+namespace Kawanamiyuu\VuejsSpa\Module;
 
 use BEAR\Sunday\Extension\Application\AbstractApp;
 

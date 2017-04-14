@@ -1,6 +1,6 @@
 <?php
 
-namespace BEAR\VuejsSpa\Module;
+namespace Kawanamiyuu\VuejsSpa\Module;
 
 use BEAR\Resource\JsonRenderer;
 use BEAR\Resource\ResourceObject;
