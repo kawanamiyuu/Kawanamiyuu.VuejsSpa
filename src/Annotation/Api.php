@@ -1,5 +1,4 @@
 <?php
-
 namespace Kawanamiyuu\VuejsSpa\Annotation;
 
 use Ray\Di\Di\Qualifier;

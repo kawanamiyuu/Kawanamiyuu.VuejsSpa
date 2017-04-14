@@ -1,10 +1,9 @@
 <?php
-
 namespace Kawanamiyuu\VuejsSpa\Module;
 
 use BEAR\Package\PackageModule;
-use Kawanamiyuu\VuejsSpa\Annotation\Api;
 use josegonzalez\Dotenv\Loader as Dotenv;
+use Kawanamiyuu\VuejsSpa\Annotation\Api;
 use Ray\Di\AbstractModule;
 
 class AppModule extends AbstractModule

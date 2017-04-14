@@ -23,4 +23,3 @@ try {
     $app->error->handle($e, $request)->transfer();
     exit(1);
 }
-
